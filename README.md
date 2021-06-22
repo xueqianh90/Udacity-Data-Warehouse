@@ -30,7 +30,7 @@ Get all the needed song and log datasets from from S3. Transform the data and th
 
 ## Data And Files Overview
 
-**create.py** - Drops and creates tables. Run this file to reset tables before each time run ETL scripts.
+**create_tables.py** - Drops and creates tables. Run this file to reset tables before each time run ETL scripts.
 
 **etl.py** - Loads and processes song and log datasets from from S3, and copys and inserts them into tables. 
 
